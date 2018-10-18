@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <Thu Oct 18 14:44:13 JST 2018 hamada>
+#Time-stamp: <Thu Oct 18 14:52:14 JST 2018 hamada>
 '''
 Example: an analysys of the top miners
 '''
