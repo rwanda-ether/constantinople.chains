@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <Thu Oct 18 12:50:09 JST 2018 hamada>
+#Time-stamp: <Thu Oct 18 14:25:43 JST 2018 hamada>
 '''
 Example: an analysys of the top miners
 '''
@@ -39,7 +39,7 @@ if __name__ == "__main__":
         print ("current block#:", bid_last)
 
         miner_count = {}
-        nblock = 100
+        nblock = 4242986 - 4230000 + 1
         bid_end   = bid_last
         bid_start = bid_end - nblock + 1
         t_prev = (www3.eth.getBlock(bid_start - 1))['timestamp']
