@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <Sat Oct 20 13:19:42 JST 2018 hamada>
+#Time-stamp: <Sat Oct 20 13:28:27 JST 2018 hamada>
 from web3 import Web3,HTTPProvider
 import sys, time, datetime
 
@@ -26,4 +26,4 @@ if __name__ == "__main__":
         currentBlock = is_syncing.currentBlock
         t = datetime.datetime.now()
         print ("%s, %d"%(t, currentBlock), flush=True)
-        time.sleep(0.1)
+        time.sleep(60)
