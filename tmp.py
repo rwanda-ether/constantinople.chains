@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <Sat Oct 20 14:43:33 JST 2018 hamada>
+#Time-stamp: <Sat Oct 20 16:00:35 JST 2018 hamada>
 '''
 Example: an analysys of the top miners
 '''
@@ -15,11 +15,11 @@ if __name__ == "__main__":
     geth_node = 'http://117.102.189.70:18545'  # ropsten node, public primary # Constantinople
     geth_node = 'http://117.102.189.70:28545'  # ropsten node, public secondary # Byzantine
     geth_node = 'http://192.168.103.201:28545' # ropsten node, private # Byzantine
-    geth_node = 'http://192.168.103.200:18545' # ropsten node, private # Constantinople # ChainB
     geth_node = 'http://192.168.103.202:18545' # ropsten node, private # Constantinople # ChainA
     geth_node = 'http://192.168.103.253:18545' # ropsten node, private # Constantinople # ChainB
     geth_node = 'http://192.168.103.201:18545' # ropsten node, private # Constantinople # ChainA
     geth_node = 'http://192.168.103.100:18545' # ropsten node, private # Constantinople # ChainB
+    geth_node = 'http://192.168.103.200:18545' # ropsten node, private # Constantinople # ChainB
 
     provider = web3.HTTPProvider(geth_node)
     www3 = web3.Web3(provider)
