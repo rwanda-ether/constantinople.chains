@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <Sat Oct 20 13:28:27 JST 2018 hamada>
+#Time-stamp: <Sat Oct 20 21:25:45 JST 2018 hamada>
 from web3 import Web3,HTTPProvider
 import sys, time, datetime
 
@@ -10,7 +10,9 @@ if __name__ == "__main__":
     geth_node = 'http://192.168.103.202:18545'
     geth_node = 'http://192.168.103.202:28545'
     geth_node = 'http://192.168.103.60:18545'
+    geth_node = 'http://192.168.103.100:18545'
     geth_node = 'http://192.168.103.253:18545'
+
 
     www3 = Web3(HTTPProvider(geth_node))
     print ("Geth: ", geth_node)
